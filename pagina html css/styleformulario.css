@@ -1,0 +1,72 @@
+@charset "UTP-8";
+
+@font-face {
+    font-family: pokemon;
+    src: url(fontes/Pokemon\ Hollow.ttf) format('truetype');
+}
+
+*{
+    padding: 10px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: white;
+    border-radius: 10px;
+    
+}
+.cabeça{
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    background-image:linear-gradient(to right,#9CBCD9,#A7C8F2);
+    padding: 10px;
+    border-radius: 5px;
+}
+nav >a{
+    
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 120px;
+    padding: 10px;
+    border-radius: 5px;  
+}
+
+nav > a:hover{
+background-color:white;
+color:#F59347;
+}
+
+#fcad{
+  background-color: white;
+  border-radius: 5px;
+   
+}
+
+h1{
+    text-align: left;
+    color:#F59347;
+    font-family: 'pokemon', cursive;
+    font-size: 4em;
+}
+
+label,input{
+    display: block;
+
+}
+
+h2{
+    color: #F59347;
+    font-size: 1.5rem;
+    
+}
+
+body{
+    
+    background-image: url(plano\ de\ fundo\ 2.jpg);
+    
+}

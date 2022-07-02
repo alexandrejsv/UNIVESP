@@ -1,0 +1,89 @@
+@charset "UTP";
+
+@font-face {
+    font-family: pokemon;
+    src: url(fontes/Pokemon\ Hollow.ttf) format('truetype');
+}
+
+*{
+    margin:0px;
+    padding: 10px;
+}
+
+
+header{
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+.cabeça{
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    text-align: left;
+    color:#F59347;
+    font-family: 'pokemon', cursive;
+    font-size: 4em;
+}
+
+nav{
+    background-image:linear-gradient(to right,#9CBCD9,#A7C8F2);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav >a{
+        color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 120px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav > a:hover{
+background-color:white;
+color:#F59347;
+}
+
+body{
+    background-image: url(plano\ de\ fundo\ 2.jpg);
+}
+main{
+    background-color:white;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #F59347;
+    border: 2px solid #F59347;
+}
+label, input{
+    display: block;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8rem;
+    font-weight: bold;
+    color: #A3C9D9;
+  
+}
+#agenda{
+    text-decoration: none;
+}
+
+#btnagendar{
+   
+    margin: 20px;
+    
+}
+footer{
+    background-image:linear-gradient(to left,#f59347,#debf86);
+    color: white;
+    text-align: center;
+    padding-block: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+}

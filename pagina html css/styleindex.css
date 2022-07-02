@@ -1,0 +1,49 @@
+@charset "UTP-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(plano\ de\ fundo\ 2.jpg);
+}
+
+a{
+    font-size: 1.1rem;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#login-container{
+    background-color: white;
+    width: 400px;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+label, input{
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 10px;   
+}
+
+#flogin{
+    font-size: 1.5rem;
+}
+input [type=submit] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border:none ;
+    padding: 10px;
+    padding-left: 5px;
+
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleformulario.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+        <header>
+        <div class="cabeça">
+            <h1 id="principal">AgendaVet</h1>
+            <img src="imagens/dog-e-fundo 200x150.png" alt="imagem de buldog frances">
+        </div>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="agenda.html">Agendamento</a>
+        <a href="#">Status</a>
+        <a href="#">Fale conosco</a>
+    </nav>
+    </header>
+
+    <div>
+        <h2>Formulário de Cadastro</h2>
+    </div>
+    <form id="fcad" action="#">
+        <fieldset><!--agrupador de campo-->
+            <div id="propritário">
+                <label for="Nome do Proprietário">Nome do Proprietário</label>
+                <input type="text" name="Nome" id="nome" required>
+                <label for="date">Data de nascimento</label>
+                <input type="date" name="date" id="date" required>
+                <label for="cpf">CPF</label>
+                <input type="text" name="cpf" id="cpf" required>
+                <label for="email"> Email</label>
+                <input type="email" name="email" id="email" required>
+                <label for="phone">Telefone</label>
+                <input type="tel" name="phone" id="phone" required>
+                <label for="cep">CEP</label>
+                <input type="text" name="cep" id="cep">
+                <label for="endereço">Endereço</label>
+                <input type="text" name="endereço" id="endereço">
+                <label for="complemento">Complemento</label>
+                <input type="text" name="complemento" id="complemento">
+                <label for="cidade">Cidade</label>
+                <input type="text" name="cidade" id="cidade">
+                <label for="estado">Estado</label>
+                <select name="estado" id="estado">
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                    <option value="EX">Estrangeiro</option>
+                </select>
+            </div>
+            <div id="pet">
+                <label for="Nome do Pet">Nome do Pet</label>
+                <input type="text" name="nome do pet" id="nome pet">
+                <label for="date">Data de nascimento do Pet</label>
+                <input type="date" name="datepet" id="datepet">
+                <label for="especie">Especie do PET</label>
+                <select name="typepet" id="typepet">
+                    <option value="dog">Cachorro</option>
+                    <option value="cat">Gato</option>
+                    <option value="rabbit">Coelho</option>
+                    <option value="horse">Cavalo</option>
+                    <option value="mouse">Roedores</option>
+                    <option value="bird">Aves</option>
+                    <option value="reptiles">Repteis</option>
+                    <option value="fish">Peixes</option>
+                </select>
+            </div>
+            <div id="password-container">
+                <label for="password">Senha</label>
+                <input type="password" name="password" id="password">
+                <label for="password">Confirme a senha</label>
+                <input type="password" name="password" id="password">
+            </div>   
+                <input type="submit" value="Cadastrar">
+           
+        </fieldset>
+
+    </form>
+</body>
+</html>

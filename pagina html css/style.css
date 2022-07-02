@@ -1,0 +1,83 @@
+@charset "UTP-8";
+
+*{
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+@font-face {
+    font-family: American;
+    src: url('fontes/American\ Signs.otf') format('opentype');
+}
+@font-face {
+    font-family: PETS;
+    src: url('fontes/Pet\ Animals.ttf') format('truetype');
+}
+@font-face {
+    font-family: pokemon;
+    src: url(fontes/Pokemon\ Hollow.ttf) format('truetype');
+}
+header{
+    background-color: white;
+    border-radius: 10px;
+    
+}
+.cabeça{
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    background-image:linear-gradient(to right,#9CBCD9,#A7C8F2);
+    padding: 10px;
+    border-radius: 5px;
+}
+nav >a{
+    
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 120px;
+    padding: 10px;
+    border-radius: 5px;
+       
+    
+}
+nav > a:hover{
+background-color:white;
+color:#F59347;
+}
+body{
+    background-image: url(plano\ de\ fundo\ 2.jpg);
+}
+main{
+    background-color:white;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #F59347;
+    border: 2px solid #F59347;
+}   
+
+
+h1{
+    text-align: left;
+    color:#F59347;
+    font-family: 'pokemon', cursive;
+    font-size: 4em;
+}
+h2{
+   
+}
+
+
+
+footer{
+    background-image:linear-gradient(to right,#f59347,#e99d63);
+    color: white;
+    text-align: center;
+    padding-block: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+}
